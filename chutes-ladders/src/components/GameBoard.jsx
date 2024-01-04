@@ -1,5 +1,10 @@
+import Cell from "./Cell"
+
 export default function GameBoard() {
     return (
-        <div></div>
+        <div className="gb-outer">
+            Game Board
+            <Cell />
+        </div>
     )
 }
